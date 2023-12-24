@@ -1,1 +1,3 @@
-const name = 'John Doe';
+const name = "John Doe"
+
+console.log(`Hello ${name}!`)
