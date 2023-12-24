@@ -2,11 +2,11 @@
   "name": "nodeboilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "tsx src",
+    "start": "tsx src/server.ts",
     "build": "tsup src",
-    "start:dev": "tsx watch src",
+    "start:dev": "tsx watch src/server.ts",
     "husky:prepare": "husky install",
     "test": "vitest",
     "test:lint": "vitest run"
