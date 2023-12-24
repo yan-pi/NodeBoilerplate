@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "tsx watch src",
     "build": "tsc",
-    "husky:prepare":"husky install"
+    "husky:prepare": "husky install",
+    "test": "vitest"
+
   },
   "husky": {
     "hooks": {
@@ -16,7 +18,8 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "yarn eslint --fix",
-      "yarn prettier --write \"src/**/*.{ts,tsx}\""
+      "yarn prettier --write \"src/**/*.{ts,tsx}\"",
+      "yarn test --passWithNoTests"
     ]
   },
   "keywords": [],
@@ -32,6 +35,7 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
   }
 }
