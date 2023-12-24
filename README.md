@@ -86,4 +86,4 @@ Husky is configured with a pre-commit hook that runs lint-staged before each com
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
