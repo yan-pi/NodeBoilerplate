@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src",
-    "build": "tsc",
+    "start": "tsx src",
+    "start:dev": "tsx watch src",
     "husky:prepare": "husky install",
-    "test": "vitest"
+    "test": "vitest",
+    "test:lint": "vitest run"
 
   },
   "husky": {
@@ -19,7 +20,7 @@
     "*.{js,jsx,ts,tsx}": [
       "yarn eslint --fix",
       "yarn prettier --write \"src/**/*.{ts,tsx}\"",
-      "yarn test --passWithNoTests"
+      "yarn test:lint --passWithNoTests"
     ]
   },
   "keywords": [],
