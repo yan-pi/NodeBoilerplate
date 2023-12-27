@@ -20,7 +20,7 @@ This is a simple Node.js boilerplate project with TypeScript ( tsx + tsup ), Exp
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/your-username/nodeboilerplate.git`
+1. Clone this repository: `git clone https://github.com/Yan-pi/NodeBoilerplate.git`
 2. Navigate to the project directory: `cd nodeboilerplate`
 3. Install dependencies: `yarn install`
 4. Start the server: `yarn start`
